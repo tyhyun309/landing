@@ -1,0 +1,33 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;500&family=Noto+Sans:wght@300;400;500;700;800&family=Rubik+Wet+Paint&display=swap');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@import url('components/cards.css');
+@import url('components/button.css');
+@import url('components/banner.css');
+@import url('components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP';
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}

@@ -1,0 +1,22 @@
+.footer {
+  background-color: #212A3E;
+  height: 100px;
+  text-align: center;
+  color: #9BA4B5;
+}
+
+a{
+  color: #9BA4B5;
+  font-size: 28px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  font-size: 35px;
+  padding: 10px;
+}

@@ -1,0 +1,52 @@
+/* Your button CSS file */
+.btn-medium {
+  color: #bdbdbd;
+  border: 1px solid #bdbdbd;
+  padding: 15px 25px;
+  border-radius: 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.btn-treehouse {
+  background-color: #3bc062;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 18px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.btn-treehouse:hover, .btn-medium:hover {
+  opacity: 1;
+}
+
+.btn-yours {
+  background-image: url('https://www.bitgab.com/uploads/1597796080-pikachu-1597796080.png');
+  background-size: cover;
+  background-position: 50% 10%;
+  width: 100px;
+  height: 100px;
+  color: black;
+  background-color: #bdbdbd;
+  border: 1px solid #bdbdbd;
+  padding: 30px 30px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+
+.btn-yours:hover {
+  background-size: cover;
+  background-image: url('https://sportshub.cbsistatic.com/i/2022/11/14/2838b9a0-f972-4c69-90f5-04e7dc10b161/pokemon-ash-pikachu-vs-charizard-anime-battle.jpg');
+
+}
